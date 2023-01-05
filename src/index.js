@@ -1,5 +1,6 @@
 module.exports = function reverse (n) {
-  let str = String(n);
+  let abs = Math.abs(n);
+  let str = String(abs);
   let result = '';
   let i = str.length - 1;
   while (i >=  0) {
